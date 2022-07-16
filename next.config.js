@@ -1,14 +1,15 @@
 const { withContentlayer } = require("next-contentlayer");
 
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 module.exports = withContentlayer({
   swcMinify: true,
   reactStrictMode: true,
   images: {
-    domains: ["cdn.example.com"],
+    domains: [],
   },
   webpack: (config, { dev, isServer }) => {
-    // Replace React with Preact only in client production build
     if (!dev && !isServer) {
       Object.assign(config.resolve.alias, {
         "react/jsx-runtime.js": "preact/compat/jsx-runtime",

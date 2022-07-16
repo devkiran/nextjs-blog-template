@@ -1,5 +1,5 @@
 import Link from "next/link";
-import menus from "../data/menus";
+import menus from "data/menus";
 
 const NavItems = () => {
   return (

@@ -15,12 +15,15 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.4",
     "contentlayer": "^0.2.6",
     "daisyui": "^2.19.0",
     "next": "12.2.2",
     "next-contentlayer": "^0.2.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-markdown": "^8.0.3",
+    "rehype-highlight": "^5.0.2",
     "rehype-prism-plus": "^1.4.2"
   },
   "devDependencies": {

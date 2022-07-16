@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
-import Header from "../components/Header";
-import projects from "../data/projects";
-import ProjectCard from "../components/ProjectCard";
+import Header from "components/Header";
+import projects from "data/projects";
+import ProjectCard from "components/ProjectCard";
 
 const Projects: NextPage = () => {
   return (

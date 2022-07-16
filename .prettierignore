@@ -16,3 +16,5 @@ npm/migration/**
 .eslintignore
 
 out
+
+.contentlayer

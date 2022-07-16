@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
-import type { Post } from "../types";
-import Header from "../components/Header";
-import BlogPost from "../components/BlogPost";
+import type { Post } from "types";
+import Header from "components/Header";
+import BlogPost from "components/BlogPost";
 import { allPosts } from "contentlayer/generated";
 
-const Projects: NextPage<{ posts: Post[] | null }> = ({ posts }) => {
+const Posts: NextPage<{ posts: Post[] | null }> = ({ posts }) => {
   return (
     <div className="h-screen w-full">
       <Header />
@@ -43,4 +43,4 @@ export function getStaticProps() {
   return { props: { posts: posts } };
 }
 
-export default Projects;
+export default Posts;
