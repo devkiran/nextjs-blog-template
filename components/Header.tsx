@@ -6,7 +6,7 @@ const NavItems = () => {
     <ul className="flex items-center space-x-5">
       {menus.map((menu) => (
         <li
-          className="text-sm font-medium cursor-pointer hover:text-sky-400"
+          className="cursor-pointer text-sm font-medium hover:text-sky-400"
           key={menu.href}
         >
           <Link href={menu.href}>
@@ -20,7 +20,7 @@ const NavItems = () => {
 
 const Header = () => {
   return (
-    <header className="flex w-full h-16 items-center flex-wrap justify-between border-b-2 px-40 border-green-400">
+    <header className="flex h-16 w-full flex-wrap items-center justify-between border-b-2 border-green-400 px-40">
       <a>
         <img src="/vercel.svg" alt="logo" className="h-8" />
       </a>

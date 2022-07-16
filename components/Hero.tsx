@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="px-40 max-h-max py-10 border-b-2 border-green-400">
+    <div className="max-h-max border-b-2 border-green-400 px-40 py-10">
       <div className="grid grid-cols-2">
-        <div className="space-y-5 flex justify-center flex-col">
+        <div className="flex flex-col justify-center space-y-5">
           <h1 className="text-5xl font-extrabold text-gray-900">
             Kiran Krishnan
           </h1>
@@ -25,7 +25,7 @@ const Hero = () => {
           <img
             src="https://boxyhq.com/img/team/kiran.jpg"
             alt="Kiran Krishnan"
-            className="rounded-full h-96 w-96"
+            className="h-96 w-96 rounded-full"
           />
         </div>
       </div>
