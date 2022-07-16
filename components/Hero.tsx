@@ -8,12 +8,12 @@ const Hero = () => {
           <h1 className="text-5xl font-extrabold text-gray-900">
             Kiran Krishnan
           </h1>
-          <h2 className="text-2xl font-extrabold text-gray-500">
-            Senior Software Engineer @ BoxyHQ
+          <h2 className="text-2xl font-bold text-gray-500">
+            Software Engineer (Open Source, Dev Tools) @ BoxyHQ
           </h2>
           <p className="text-lg">
-            He loves to talk about building startups, programming, OSS and
-            astronomy.
+            Sharing my journey in tech | Open source contributor | Writing about
+            Golang, Next.js, Remix.run
           </p>
           <div>
             <Link href="/contact">

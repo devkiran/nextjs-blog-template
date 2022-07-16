@@ -13,10 +13,10 @@ const Posts: NextPage<{ posts: Post[] | null }> = ({ posts }) => {
           <div className="mb-10 space-y-5">
             <h1 className="text-4xl font-bold text-gray-900">All Posts</h1>
             <p className="text-lg">
-              These are a collection of code snippets I have used in the past
-              and saved. Some are Serverless Functions, which include set up
-              instructions. Others are anything from random CSS snippets to
-              Node.js scripts.
+              I&apos;ve 8+ years of software development experience building
+              apps for startups and enterprises. I&apos;m excited to learn new
+              languages and contribute to OSS. Loves to talk about building
+              startups, programming, OSS.
             </p>
           </div>
           <div className="flex flex-col space-y-8">

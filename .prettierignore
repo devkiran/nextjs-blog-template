@@ -18,3 +18,5 @@ npm/migration/**
 out
 
 .contentlayer
+
+data/posts/*
