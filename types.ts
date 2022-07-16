@@ -4,11 +4,3 @@ export type Project = {
   image: string;
   url: string;
 };
-
-export type Post = {
-  title: string;
-  description: string;
-  publishedAt: string;
-  slug: string;
-  content: string;
-};

@@ -1,4 +1,4 @@
-import type { Post } from "types";
+import type { Post } from "contentlayer/generated";
 import Link from "next/link";
 
 const BlogPost = ({ post }: { post: Post }) => {

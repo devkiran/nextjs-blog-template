@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import type { Post } from "types";
+import type { Post } from "contentlayer/generated";
 import Header from "components/Header";
 import BlogPost from "components/BlogPost";
 import { allPosts } from "contentlayer/generated";
@@ -9,7 +9,7 @@ const Posts: NextPage<{ posts: Post[] | null }> = ({ posts }) => {
     <div className="h-screen w-full">
       <Header />
       <section className="py-20 px-5 md:px-10">
-        <div className="m-auto flex w-full max-w-4xl flex-col">
+        <div className="m-auto flex w-full max-w-3xl flex-col">
           <div className="mb-10 space-y-5">
             <h1 className="text-4xl font-bold text-gray-900">All Posts</h1>
             <p className="text-lg">
