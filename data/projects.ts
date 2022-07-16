@@ -1,27 +1,33 @@
 const projects = [
   {
-    name: "Project 1",
+    name: "Supabase",
     description:
-      "Open-Source library to Node.js client library for interacting with the Twitter API",
-    image: "/projects/project.jpeg",
+      "Supabase is an open source Firebase alternative. Start your project with a Postgres Database, Authentication, instant APIs, Realtime subscriptions and Storage.",
+    image: "/projects/project.png",
   },
   {
-    name: "Project 2",
+    name: "SAML Jackson",
     description:
-      "Open-Source library to Node.js client library for interacting with the Twitter API",
-    image: "/projects/project.jpeg",
+      "A SAML SSO service designed as an OAuth 2.0 flow. Integrate SAML with just a few lines of code.",
+    image: "/projects/project.png",
   },
   {
-    name: "Project 3",
+    name: "Nhost",
     description:
-      "Open-Source library to Node.js client library for interacting with the Twitter API",
-    image: "/projects/project.jpeg",
+      "Nhost is an open source Firebase alternative with GraphQL, built with the following things in mind: Open Source, GraphQL, SQL, Great Developer Experience.",
+    image: "/projects/project.png",
   },
   {
-    name: "Project 4",
+    name: "Jitsu",
     description:
-      "Open-Source library to Node.js client library for interacting with the Twitter API",
-    image: "/projects/project.jpeg",
+      "Jitsu is a fully-scriptable data ingestion engine for modern data teams. Set-up a real-time data pipeline in minutes, not days.",
+    image: "/projects/project.png",
+  },
+  {
+    name: "PostHog",
+    description:
+      "PostHog is the all-in-one platform for building better products - with product analytics, feature flags, session recordings, a/b testing, heatmaps.",
+    image: "/projects/project.png",
   },
 ];
 

@@ -6,7 +6,7 @@ const NavItems = () => {
     <ul className="flex items-center space-x-5">
       {menus.map((menu) => (
         <li
-          className="cursor-pointer text-sm font-medium hover:text-sky-400"
+          className="cursor-pointer text-base font-medium hover:text-sky-400"
           key={menu.href}
         >
           <Link href={menu.href}>
