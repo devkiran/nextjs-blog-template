@@ -15,6 +15,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "@tailwindcss/typography": "^0.5.4",
     "contentlayer": "^0.2.6",
     "daisyui": "^2.19.0",

@@ -16,8 +16,8 @@ const Hero = () => {
             astronomy.
           </p>
           <div>
-            <Link href="/about">
-              <a className="btn btn-primary">Learn About Me</a>
+            <Link href="/contact">
+              <a className="btn btn-primary">Contact Me</a>
             </Link>
           </div>
         </div>

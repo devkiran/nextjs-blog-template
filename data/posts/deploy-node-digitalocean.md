@@ -19,7 +19,7 @@ Before we dive into the code, below are some things you should know:
 
 ### Example App
 
-We'll use a Node.js boilerplate from Github and set up that project on Droplet. You are free to use your own project if you have. Here is the project I'll be using https://github.com/devkiran/express-sample
+We'll use a Node.js boilerplate from Github and set up that project on Droplet. You are free to use your own project if you have. Here is the project I'll be using [GitHub Repo](https://github.com/devkiran/express-sample)
 
 ![1.1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1637247924646/yfqsseAKq.png)
 
