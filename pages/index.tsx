@@ -1,13 +1,12 @@
 import type { NextPage } from "next";
 import Hero from "components/Hero";
-import Header from "components/Header";
+import Layout from "components/Layout";
 
 const Home: NextPage = () => {
   return (
-    <div className="h-screen w-full">
-      <Header />
+    <Layout>
       <Hero />
-    </div>
+    </Layout>
   );
 };
 

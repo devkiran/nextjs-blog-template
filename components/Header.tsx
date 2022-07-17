@@ -20,12 +20,12 @@ const NavItems = () => {
 
 const Header = () => {
   return (
-    <header className="flex h-16 w-full flex-wrap items-center justify-between border-b-2 border-green-400 px-40">
+    <div className="flex w-full justify-between border-b py-5 px-5">
       <a>
         <img src="/vercel.svg" alt="logo" className="h-8" />
       </a>
       <NavItems />
-    </header>
+    </div>
   );
 };
 

@@ -6,7 +6,7 @@ const BlogPost = ({ post }: { post: Post }) => {
   return (
     <Link href={`/blog/${post.slug}`}>
       <a>
-        <div className="flex items-center justify-between space-x-2 border-b pb-3">
+        <div className="flex items-center justify-between border-b pb-3">
           <div className="flex flex-col space-y-2">
             <h4 className="text-lg font-medium text-gray-900 dark:text-gray-100 md:text-xl">
               {post.title}
