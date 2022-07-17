@@ -1,6 +1,5 @@
 import type { Post } from "contentlayer/generated";
 import Link from "next/link";
-import { CalendarIcon } from "@heroicons/react/solid";
 
 const BlogPost = ({ post }: { post: Post }) => {
   return (
@@ -14,10 +13,7 @@ const BlogPost = ({ post }: { post: Post }) => {
             <p className="text-base text-gray-600 dark:text-gray-400">
               {post.description}
             </p>
-            <div className="flex">
-              <CalendarIcon className="h-5 w-5" />
-              <p className="ml-2 text-gray-500">{post.publishedAt}</p>
-            </div>
+            <p className="text-gray-500">{post.publishedAt}</p>
           </div>
         </div>
       </a>

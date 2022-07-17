@@ -3,7 +3,7 @@ import type { Post } from "contentlayer/generated";
 import { allPosts } from "contentlayer/generated";
 import ReactMarkdown from "react-markdown";
 import rehypeHighlight from "rehype-highlight";
-import Layout from "components/Layout";
+import { Layout } from "components";
 import { NextSeo } from "next-seo";
 
 const Post: NextPage<{ post: Post }> = ({ post }) => {

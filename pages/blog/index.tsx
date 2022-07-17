@@ -1,8 +1,7 @@
 import type { NextPage } from "next";
 import type { Post } from "contentlayer/generated";
-import BlogPost from "components/BlogPost";
 import { allPosts } from "contentlayer/generated";
-import Layout from "components/Layout";
+import { BlogPost, Layout } from "components";
 import { NextSeo } from "next-seo";
 
 const Posts: NextPage<{ posts: Post[] | null }> = ({ posts }) => {

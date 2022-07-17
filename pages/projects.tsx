@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import projects from "data/projects";
-import ProjectCard from "components/ProjectCard";
-import Layout from "components/Layout";
+import { ProjectCard, Layout } from "components";
 import { NextSeo } from "next-seo";
 
 const Projects: NextPage = () => {

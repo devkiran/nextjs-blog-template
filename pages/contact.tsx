@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
-import { GlobeIcon, MailIcon } from "@heroicons/react/solid";
-import Layout from "components/Layout";
+import { Layout } from "components";
 import { NextSeo } from "next-seo";
 
 const Contact: NextPage = () => {
@@ -16,19 +15,16 @@ const Contact: NextPage = () => {
               industry.
             </p>
             <div className="flex items-center">
-              <MailIcon className="h-5 w-5" />
-              <p className="ml-2 text-base">kiran@boxyhq.com</p>
+              <p className="text-base">kiran@boxyhq.com</p>
             </div>
             <div className="flex items-center">
-              <GlobeIcon className="h-5 w-5" />
-              <p className="ml-2 text-base">
+              <p className="text-base">
                 Website:
                 <a href="https://www.kirandev.com/">&nbsp;kirandev.com</a>
               </p>
             </div>
             <div className="flex items-center">
-              <GlobeIcon className="h-5 w-5" />
-              <p className="ml-2 text-base">
+              <p className="text-base">
                 Twitter:
                 <a href="https://twitter.com/tokirankrishnan">
                   &nbsp;@tokirankrishnan
@@ -36,8 +32,7 @@ const Contact: NextPage = () => {
               </p>
             </div>
             <div className="flex items-center">
-              <GlobeIcon className="h-5 w-5" />
-              <p className="ml-2 text-base">
+              <p className="text-base">
                 GitHub:
                 <a href="https://github.com/devkiran">&nbsp;@devkiran</a>
               </p>
