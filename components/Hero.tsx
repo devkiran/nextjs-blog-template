@@ -23,9 +23,9 @@ const Hero = () => {
         </div>
         <div className="flex items-center justify-center">
           <img
-            src="/kiran.jpeg"
+            src="/developer-avatar.png"
             alt="Kiran Krishnan"
-            className="h-52 w-52 rounded-full border-2 border-violet-600"
+            className="h-72 w-72 rounded-full border-2 border-violet-600"
           />
         </div>
       </div>

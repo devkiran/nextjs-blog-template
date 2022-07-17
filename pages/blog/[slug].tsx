@@ -4,19 +4,23 @@ import { allPosts } from "contentlayer/generated";
 import ReactMarkdown from "react-markdown";
 import rehypeHighlight from "rehype-highlight";
 import Layout from "components/Layout";
+import { NextSeo } from "next-seo";
 
 const Post: NextPage<{ post: Post }> = ({ post }) => {
   return (
     <Layout>
-      <div className="flex flex-col">
-        <h1 className="text-3xl font-bold text-gray-900">{post.title}</h1>
-        <ReactMarkdown
-          rehypePlugins={[rehypeHighlight]}
-          className="prose prose-base prose-slate max-w-none text-gray-900"
-        >
-          {post.body.raw}
-        </ReactMarkdown>
-      </div>
+      <>
+        <NextSeo title={post.title} description={post.description} />
+        <div className="flex flex-col">
+          <h1 className="text-3xl font-bold text-gray-900">{post.title}</h1>
+          <ReactMarkdown
+            rehypePlugins={[rehypeHighlight]}
+            className="prose prose-base prose-slate max-w-none text-gray-900"
+          >
+            {post.body.raw}
+          </ReactMarkdown>
+        </div>
+      </>
     </Layout>
   );
 };

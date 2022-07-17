@@ -1,13 +1,15 @@
 import type { NextPage } from "next";
 import Hero from "components/Hero";
 import Layout from "components/Layout";
+import { NextSeo } from "next-seo";
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div>
+      <>
+        <NextSeo title="Home" description="Home" />
         <Hero />
-      </div>
+      </>
     </Layout>
   );
 };

@@ -3,21 +3,26 @@ import type { Post } from "contentlayer/generated";
 import BlogPost from "components/BlogPost";
 import { allPosts } from "contentlayer/generated";
 import Layout from "components/Layout";
+import { NextSeo } from "next-seo";
 
 const Posts: NextPage<{ posts: Post[] | null }> = ({ posts }) => {
   return (
     <Layout>
-      <div className="flex flex-col space-y-4">
-        <h1 className="text-3xl font-bold text-gray-900">All Posts</h1>
-        <p className="text-lg">
-          I&apos;m excited to learn new languages and contribute to OSS. Loves
-          to talk about building startups, programming, OSS.
-        </p>
-        <div className="flex flex-col space-y-8">
-          {posts &&
-            posts.map((post) => <BlogPost key={post.title} post={post} />)}
+      <>
+        <NextSeo title="All Posts" description="All Posts" />
+        <div className="flex flex-col space-y-4">
+          <h1 className="text-3xl font-bold text-gray-900">All Posts</h1>
+          <p className="text-lg">
+            Lorem Ipsum has been the industrys standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book
+          </p>
+          <div className="flex flex-col space-y-8">
+            {posts &&
+              posts.map((post) => <BlogPost key={post.title} post={post} />)}
+          </div>
         </div>
-      </div>
+      </>
     </Layout>
   );
 };
