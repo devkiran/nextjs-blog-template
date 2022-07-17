@@ -1,25 +1,5 @@
-import Link from "next/link";
-import menus from "data/menus";
 import { MenuIcon } from "@heroicons/react/solid";
-
-const NavItems = () => {
-  return (
-    <nav>
-      <ul className="flex items-center space-x-5">
-        {menus.map((menu) => (
-          <li
-            className="cursor-pointer text-base font-medium hover:text-sky-400"
-            key={menu.href}
-          >
-            <Link href={menu.href}>
-              <a className="btn btn-outline btn-sm">{menu.name}</a>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  );
-};
+import NavItems from "./NavItems";
 
 const Header = () => {
   return (

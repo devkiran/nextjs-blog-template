@@ -1,19 +1,19 @@
 const menus = [
   {
-    name: "Home",
-    href: "/",
+    title: "Home",
+    path: "/",
   },
   {
-    name: "Projects",
-    href: "/projects",
+    title: "Projects",
+    path: "/projects",
   },
   {
-    name: "Blog",
-    href: "/blog",
+    title: "Blog",
+    path: "/blog",
   },
   {
-    name: "Contact",
-    href: "/contact",
+    title: "Contact",
+    path: "/contact",
   },
 ];
 
