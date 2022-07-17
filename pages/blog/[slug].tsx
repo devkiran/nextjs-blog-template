@@ -10,11 +10,12 @@ const Post: NextPage<{ post: Post }> = ({ post }) => {
     <Layout>
       <div className="flex flex-col">
         <h1 className="text-3xl font-bold text-gray-900">{post.title}</h1>
-        <div className="prose w-full bg-yellow-300 text-gray-900">
-          <ReactMarkdown rehypePlugins={[rehypeHighlight]}>
-            {post.body.raw}
-          </ReactMarkdown>
-        </div>
+        <ReactMarkdown
+          rehypePlugins={[rehypeHighlight]}
+          className="prose prose-base prose-slate max-w-none text-gray-900"
+        >
+          {post.body.raw}
+        </ReactMarkdown>
       </div>
     </Layout>
   );
