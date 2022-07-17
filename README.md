@@ -10,6 +10,7 @@ This is a simple NextJS blog template for developers. Still in development. Feel
 - [x] Contact
 - [ ] Open Source Contributions
 - [ ] Top Tweets
+- [ ] Make the header mobile responsive
 
 ## Development
 
