@@ -7,10 +7,22 @@ This is a simple NextJS blog template for developers. Still in development. Feel
 - [x] Home
 - [x] Projects
 - [x] Blog
-- [x] Contact
+- [x] Contact form
+- [x] Subscribe form
+- [x] Top Tweets
 - [ ] Open Source Contributions
-- [ ] Top Tweets
 - [ ] Make the header mobile responsive
+
+## Demo
+
+See the [demo](https://nextjs-blog-template-xi.vercel.app/)
+
+## How to update the data (Posts, Projects, etc.)
+
+- Add new posts to the `data/posts` folder.
+- Add new projects to the `data/projects.ts` file.
+- Add new tweets to the `data/tweets.ts` file.
+- Add new menu items to the `data/menus.ts` file.
 
 ## Development
 

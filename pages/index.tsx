@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Layout, Hero, TopTweets } from "components";
+import { Layout, Hero, TopTweets, SubscribeForm } from "components";
 import { NextSeo } from "next-seo";
 
 const Home: NextPage = () => {
@@ -9,6 +9,7 @@ const Home: NextPage = () => {
         <NextSeo title="Home" description="Home" />
         <Hero />
         <TopTweets />
+        <SubscribeForm />
       </>
     </Layout>
   );
