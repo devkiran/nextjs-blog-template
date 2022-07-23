@@ -7,3 +7,5 @@ export { default as NavItems } from "./NavItems";
 export { default as ProjectCard } from "./ProjectCard";
 export { default as SubscribeForm } from "./SubscribeForm";
 export { default as TopTweets } from "./TopTweets";
+export { default as TopBlogPost } from "./TopBlogPost";
+export { default as Divider } from "./Divider";

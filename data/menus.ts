@@ -12,6 +12,10 @@ const menus = [
     path: "/blog",
   },
   {
+    title: "Top Tweets",
+    path: "/top-tweets",
+  },
+  {
     title: "Contact",
     path: "/contact",
   },

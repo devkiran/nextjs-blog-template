@@ -8,7 +8,8 @@ This is a simple NextJS blog template for developers. Still in development. Feel
 - [x] Projects
 - [x] Blog
 - [x] Contact form
-- [x] Subscribe form
+- [x] Subscribe to the email form
+- [x] Latest Articles & News
 - [x] Top Tweets
 - [ ] Open Source Contributions
 - [ ] Make the header mobile responsive

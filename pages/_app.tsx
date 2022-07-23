@@ -9,7 +9,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Freelance Template</title>
       </Head>
-      <Component {...pageProps} />
+      <div className="px-5">
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }
